@@ -6,3 +6,6 @@
 
 pub mod details;
 mod ioctl;
+mod ocp;
+
+pub use ocp::OcpHandler;
