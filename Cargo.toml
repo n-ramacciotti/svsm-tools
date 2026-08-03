@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 nix = { version = "0.31.3", features = ["ioctl"] }
+zerocopy = { version = "0.8.2", features = ["derive"] }
+bitfield-struct = { version = "0.6.2" }

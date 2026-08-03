@@ -4,4 +4,5 @@
 //
 // Author: Nicola Ramacciotti <niko.ramak@gmail.com>
 
+pub mod details;
 mod ioctl;
