@@ -5,9 +5,7 @@
 // Author: Nicola Ramacciotti <niko.ramak@gmail.com>
 
 use super::bindings::OCP_SVSM_IOCTL_TYPE;
-use super::bindings::{
-    ocp_svsm_list_objects, ocp_svsm_list_sources, ocp_svsm_read_write_source,
-};
+use super::bindings::{ocp_svsm_list_objects, ocp_svsm_list_sources, ocp_svsm_read_write_source};
 use nix::{ioctl_readwrite, ioctl_write_ptr};
 
 const OCP_SVSM_IOCTL_TYPE_CMD: u8 = OCP_SVSM_IOCTL_TYPE as u8;
